@@ -5,7 +5,7 @@ const hbs = require('hbs');
 require('./hbs/helpers');
 
 //heroku entrega de manera global el puerto 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 //midelware
 app.use(express.static(__dirname + '/public'));
