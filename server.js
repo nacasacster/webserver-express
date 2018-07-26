@@ -24,6 +24,4 @@ app.get('/about', (req, res) => {
         //nombre: 'fernando',
     });
 });
-app.listen(port, () => {
-    console.log(`Escuchando peticiones en el puerto ${port}`);
-});
+app.listen(port);
